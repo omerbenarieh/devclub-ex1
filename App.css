@@ -1,0 +1,36 @@
+.navbar {
+  list-style: none;
+}
+
+.components {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: black;
+  padding: 3px;
+  transition: all 0.3s;
+}
+
+.components:hover {
+  color: orangered;
+}
+
+div {
+  margin: 6px;
+}
+
+.btn-name {
+  cursor: pointer;
+  border-radius: 3px;
+  transition: all 0.3s;
+  font-size: 1.1rem;
+}
+.btn-name:hover {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  border: solid;
+  display: inline-block;
+  border-radius: 3px;
+}
